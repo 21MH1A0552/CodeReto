@@ -213,14 +213,7 @@ function animateText() {
         setTimeout(animateText, 1000); // Adjust the delay before restarting
     }, text.length * 300 + 1000); // Wait for the animation to complete before resetting
 }
-document.getElementById("startCodingBtn").addEventListener("click", function() {
-    document.querySelector(".auth-buttons").style.display = "none"; // Hide login & signup buttons
-    document.getElementById("startCodingBtn").style.display = "none"; 
-    document.querySelector(".tabs").style.display = "block";
-    document.querySelector(".editors").style.display = "block";
-    document.querySelector(".action-buttons").style.display = "block";
-    document.querySelector(".output-container").style.display = "block";
-  });
+
 
 // Start the animation
 animateText();
